@@ -16,7 +16,7 @@
  extern void SetTIM0INT(void (*pointer)(void));
  extern void SetTIM0Comp(void (*pointer)(void));
  extern void SetReg(u8 copy_LocalValue);
- extern void SetTickTime_ms(u8 copy_LocalValue);
+ extern void SetTickTime_us(f32 copy_LocalValue);
 
 
 

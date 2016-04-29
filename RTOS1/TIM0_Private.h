@@ -9,6 +9,7 @@
 #define TCCR0 (*((volatile u8*)(0x53)))
 #define TIMSK (*((volatile u8*)(0x59)))
 #define OCR0  (*((volatile u8*)(0x5C)))
+#define TCNT0  (*((volatile u8*)(0x52)))
 #define CS00 0
 #define TOIE0 0
 #define OCIE0 1
@@ -27,6 +28,7 @@
 #  define ISR(vector)            \
     void vector (void) __attribute__ ((signal,__INTR_ATTRS)); \
     void vector (void)
+
 /*******************************************************/  
 /*****************  Private Functions  *****************/  
 /*******************************************************/  

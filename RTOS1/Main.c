@@ -30,9 +30,9 @@ void Task3(void)
 int main(void)
 {
 	DIO_voidInit();
-	Creat_Task(0,Task1);
-	Creat_Task(1,Task2);
-	Creat_Task(2,Task3);
+	Creat_Task(0,Task1,1,3);
+	Creat_Task(1,Task2,1,4);
+	Creat_Task(2,Task3,1,1);
 	RTOS_Init();
 	while(1)
 	{

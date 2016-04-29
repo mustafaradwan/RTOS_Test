@@ -9,7 +9,7 @@
 #define OS_INTERFACE_H_
 
 extern void RTOS_Init(void);
-extern void Creat_Task(u8 Copy_u8TaskId,void(*ptr)(void));
+void Creat_Task(u8 Copy_u8TaskId,void(*ptr)(void),u8 Copy_u8TaskCounter,u8 Copy_u8TaskPeriodicity);
 
 
 #endif /* OS_INTERFACE_H_ */

@@ -9,11 +9,6 @@
 #define OS_CONFIG_H_
 
 #define TASK_NUMBER 3
-#define TASK1_COUNTER 1
-#define TASK2_COUNTER 1
-#define TASK3_COUNTER 1
-#define TASK1_PERIODICITY 2
-#define TASK2_PERIODICITY 4
-#define TASK3_PERIODICITY 3
-#define TICK_TIME_MS 500
+
+#define TICK_TIME_US 500000
 #endif /* OS_CONFIG_H_ */
